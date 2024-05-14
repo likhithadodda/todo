@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Todo List</h2>
+        <input type="text" id="taskInput" class="form-control mb-2" placeholder="Add new task">
+        <button id="addTaskBtn" class="btn btn-primary mb-2">Add Task</button>
+        <ul id="taskList" class="list-group"></ul>
+        <button id="saveTasksBtn" class="btn btn-success mt-3">Save Tasks</button>
+    </div>
+
+    <script src="todos.js"></script>
+    <div>
+        <input type="checkbox" id="learnBootstrap" class="mr-2">
+        <label for="learnBootstrap">Learn Bootstrap</label>
+        <button class="btn btn-danger btn-sm ml-2">Delete</button>
+    </div>
+    
+    <div>
+        <input type="checkbox" id="learnCSS" class="mr-2">
+        <label for="learnCSS">Learn CSS</label>
+        <button class="btn btn-danger btn-sm ml-2">Delete</button>
+    </div>
+    
+</body>
+</html>

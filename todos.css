@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Style for todo list */
+#taskList {
+    padding: 0;
+}
+
+.list-group-item {
+    border: none;
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style for delete buttons */
+.delete-btn {
+    margin-left: 10px;
+}
+
+/* Additional styling for checkboxes outside the todo list */
+.checkbox-container {
+    margin-top: 20px;
+}
+
+.checkbox-container div {
+    margin-bottom: 10px;
+}
